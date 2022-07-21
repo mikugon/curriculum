@@ -1,0 +1,179 @@
+@media screen and (min-width: 767px) {
+
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+     }
+    
+    .header{
+        width: 400px;
+        height: 100px;
+        background-color: darkblue;
+    }
+    
+    .left{
+        width: 150px;
+        height: 250px;
+        background-color: gray;
+        float: left;
+    }
+    
+    .right{
+        float: left;
+    }
+    
+    .rtleft{
+        float: left;
+    }
+    
+    .top{
+        width: 150px;
+        height: 50px;
+        background-color: yellow;
+    }
+    
+    .bottom{
+        width: 150px;
+        height: 100px;
+        background-color: blue;
+    }
+    
+    .rtright{
+        width: 100px;
+        height: 150px;
+        background-color: pink;
+        float: left;
+    }
+    
+    .rightbottom{
+        width: 250px;
+        height: 100px;
+        background-color: red;
+    }
+    
+    .footer{
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+    }
+    
+    }
+
+
+@media screen and (max-width: 767px) {
+
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+     }
+
+    .header{
+        width: 300px;
+        height: 100px;
+        background-color: darkblue;
+    }
+    
+    .left{
+        width: 100px;
+        height: 250px;
+        background-color: gray;
+        float: left;
+    }
+    
+    .right{
+        float: left;
+    }
+    
+    .rtleft{
+        float: left;
+    }
+    
+    .top{
+        width: 125px;
+        height: 50px;
+        background-color: yellow;
+    }
+    
+    .bottom{
+        width: 125px;
+        height: 100px;
+        background-color: blue;
+    }
+    
+    .rtright{
+        width: 75px;
+        height: 150px;
+        background-color: pink;
+        float: left;
+    }
+    
+    .rightbottom{
+        width: 200px;
+        height: 100px;
+        background-color: red;
+    }
+    
+    .footer{
+        width: 300px;
+        height: 100px;
+        background-color: orange;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+　
+    .middle {
+        margin-left: auto; /* ボックス外側の左の余白を親要素の幅に合わせる */
+        margin-right: auto; /* ボックス外側の右の余白を親要素の幅に合わせる */
+        }
+
+
+    .header{
+        width: 150px;
+        height: 100px;
+        background-color: darkblue;
+    }
+    
+    .left{
+        width: 150px;
+        height: 100px;
+        background-color: gray;
+    }
+    
+    
+    .top{
+        width: 150px;
+        height: 50px;
+        background-color: yellow;
+    }
+    
+    .bottom{
+        width: 150px;
+        height: 100px;
+        background-color: blue;
+    }
+    
+    .rtright{
+        width: 150px;
+        height: 100px;
+        background-color: pink;
+    }
+    
+    .rightbottom{
+        width: 150px;
+        height: 100px;
+        background-color: red;
+    }
+    
+    .footer{
+        width: 150px;
+        height: 100px;
+        background-color: orange;
+    }
+    
+}
